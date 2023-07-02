@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: wheat;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.search-container{
+    height : 50px;
+    position: relative;
+}
+
+.input{
+    height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 0;
+    background: transparent;
+    border: 0;
+}
+
+.button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: beige;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.active .input{
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.active .button{
+    background-color: beige;
+    transform: translate(250px);
+}
