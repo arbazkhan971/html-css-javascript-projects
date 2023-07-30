@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+}
+
+.container {
+    border: 1px solid blue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);  
+    width: 250px;
+    background-color: white;
+    text-align: center;
+}
+
+.header {
+    background-color: blue;
+    padding: 10px;
+    font-size: 1.2rem;
+    color:white;
+}
+
+.timer {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 10px;
+}
