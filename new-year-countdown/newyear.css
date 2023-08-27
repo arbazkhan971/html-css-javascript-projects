@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    background-color: purple;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.next-year {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: purple;
+    margin-bottom: 10px;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-around;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+}
+
+#days, #hours, #minutes, #seconds {
+    font-size: 3rem;
+    font-weight: bold;
+}
