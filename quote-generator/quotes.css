@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: olivedrab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    background-color: white;
+    width: 550px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.header {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: -25%;
+    left: 10%;
+}
+
+#quote {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+#author {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+button {
+    background-color: olivedrab;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
