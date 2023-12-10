@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    height: 30px;
+    width: 800px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.percentage {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+}
+
+.loading-bar {
+    background-color: orange;
+    width: 0;
+    height: 100%;
+    transition: width ease .3;
+}
