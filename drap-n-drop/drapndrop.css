@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+}
+
+.empty {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: white;
+    margin: 10px;
+}
+
+.img-box {
+    background-image: url("https://source.unsplash.com/random/?animal&1");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.hold {
+    border: 5px dashed black;
+    background-color: grey;
+}
