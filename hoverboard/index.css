@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 280px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.square {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    margin: 2px;
+    box-shadow: 0 0 2px 0 rbga(0,0,0,0.3);
+    background-color: #1D1D1D;
+    transition: 3s ease;
+}
+
+.square:hover{
+    transition-duration: 0ms;
+}
