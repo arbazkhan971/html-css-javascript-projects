@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.header {
+    background-color: blue;
+    border-radius: 8px 8px 0 0;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+#output {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
